@@ -1,0 +1,25 @@
+---
+"extends":
+  - "formidable/configurations/es6-react"
+"rules":
+  "filenames/match-regex": 0, // It is handy to append the slide indexes to the filenames
+  "indent": [2, 2, {"SwitchCase": 1}]
+  "max-len": 0
+  "no-magic-numbers": 0
+  "react/prefer-es6-class": 0
+  "react/no-multi-comp": 0
+  "react/sort-comp": 0
+  "quotes": [2, "single"]
+  "promise/catch-or-return": 0
+  "promise/always-return": 0
+  "no-invalid-this": 0
+"env":
+  "browser": true,
+  "node": true
+"globals":
+  "afterEach": true,
+  "describe": true,
+  "expect": true,
+  "it": true,
+  "jest": true,
+  "test": true
